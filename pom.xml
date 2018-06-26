@@ -96,7 +96,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>https://devbit010.cafe24.com/manager/text</url>
-					<path>/security01</path>
+					<path>/180625_security01</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
