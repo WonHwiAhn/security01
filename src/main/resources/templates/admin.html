@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+	<head>
+	</head>
+	<body>
+		<h1>admin</h1>
+		<!-- <h3 sec:authentication="name">spring security username</h3> -->
+		<!-- <h3>[[${#authentication.name}]]</h3> -->
+		
+		<p sec:author-url="/admin/aaa">
+			<a href="/admin/aaa">ADMIN AAA</a>
+		</p>
+		
+		<p sec:author-url="/manager/aaa">
+			<a href="/manager/aaa">MANAGER AAA</a>
+		</p>
+	</body>
+</html>
