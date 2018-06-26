@@ -16,8 +16,8 @@ public class SampleController {
 	}
 	
 	@GetMapping("/login")
-	public void login(){
-		
+	public String login(){
+		return "login";
 	}
 	
 	@GetMapping("/logout")
